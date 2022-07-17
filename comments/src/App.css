@@ -1,0 +1,27 @@
+/* util classes */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comment-box {
+  padding-left: 80px;
+}
+
+.comments-container {
+  width: 60%;
+  margin-bottom: 2rem;
+  justify-content: left;
+  display: flex;
+}
+
+.reply-button {
+  cursor: pointer; 
+  font-size: 0.7rem;
+  color: green;
+}
+
+input[type=text] {
+  width: 50%;
+}
